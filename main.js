@@ -33,3 +33,5 @@ const myFavouriteFilm = {
 //My car is red, has 4 wheels, power steering, and 2 seats, and does 20 miles per gallon.
 //Create an object called myFavouriteFilm:
 //My favourite film's title is The Dark Knight, it was released in 2008, and the lead actor is Christian Bale.
+
+console.log("Hello world")
