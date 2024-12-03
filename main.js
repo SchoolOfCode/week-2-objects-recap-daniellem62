@@ -34,4 +34,58 @@ const myFavouriteFilm = {
 //Create an object called myFavouriteFilm:
 //My favourite film's title is The Dark Knight, it was released in 2008, and the lead actor is Christian Bale.
 
-console.log("Hello world")
+let person = {
+    name: "Ben",
+    likesChocolate: false,
+  };
+
+if (person.likesChocolate) {
+    console.log(person.name + " loves chocolate")
+} else {console.log(person.name + " hates chocolate")};
+
+
+// Below that, use dot notation to console.log the value of the likesChocolate property.
+//Then write an if statement that will console.log "Ben loves chocolate" if likesChocolate has a value of true else console.log "Ben hates chocolate".
+// The condition for the if, and the name Ben should both be read from the object using dot notation.
+// Change the object's values and re-run your code. The name and the boolean should affect how your program runs.
+
+let desiredPleasantry = "smallTalk";
+
+let bensPhrases = {
+  greeting: "Well hello there!",
+  farewell: "See you in another life, brother",
+  smallTalk: "Warm today, isn't it...",
+};
+
+console.log(bensPhrases[desiredPleasantry])
+//Use bracket notation and the smallTalk property to console.log Ben's smalltalk phrase.
+// Use bracket notation and the desiredPleasantry variable to console.log Ben's greeting phrase.
+// Change what is console logged by changing the value of desiredPleasantry.
+
+let me = {
+    firstName: "Danielle",
+    lastName: "Mcloughlin",
+    isBootcamper: false,
+  };
+
+me.isBootcamper = true;
+
+let communication = {
+    success: true,
+    payload: {
+      message: {
+        text: "Please send biscuits!",
+        priority: "URGENT",
+      },
+    },
+  };
+
+  let variable = communication.payload.message.text;
+
+  if (communication.payload.message.priority === "URGENT") {
+    console.log(variable)
+  };
+
+//  Using dot notation, read the text from the communication object and store it in a variable.
+//If the priority is urgent, then console.log the variable, else do nothing.
+
